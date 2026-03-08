@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Modèle Élégant</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+
+body{
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+.cv{
+    width:100%;
+    max-width:1100px;
+    display:grid;
+    grid-template-columns:320px 1fr;
+    background:white;
+    box-shadow:0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* LEFT SIDE */
+.sidebar{
+    background:#0ba61d;
+    padding:30px 25px;
+}
+
+.photo{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.photo img{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+}
+
+.sidebar h3{
+    margin:25px 0 15px;
+    font-size:16px;
+    letter-spacing:1px;
+}
+
+.sidebar p, .sidebar li{
+    font-size:14px;
+    margin-bottom:8px;
+}
+
+.sidebar ul{list-style:none}
+
+.sidebar i{
+    margin-right:8px;
+}
+
+/* RIGHT SIDE */
+.content{
+    padding:40px;
+}
+
+.header h1{
+    font-size:28px;
+    letter-spacing:2px;
+}
+
+.header h2{
+    font-size:18px;
+    margin:8px 0 15px;
+    color:#555;
+}
+
+.header p{
+    font-size:14px;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+.section{
+    margin-bottom:30px;
+}
+
+.section h3{
+    font-size:16px;
+    margin-bottom:15px;
+    border-bottom:2px solid #e5c79a;
+    padding-bottom:5px;
+}
+
+.job{
+    margin-bottom:15px;
+}
+
+.job h4{
+    font-size:15px;
+}
+
+.job span{
+    font-size:13px;
+    color:#777;
+}
+
+.job ul{
+    margin-top:5px;
+    padding-left:18px;
+    font-size:14px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
+
+.skill-item{
+    background:#f4f4f4;
+    padding:8px;
+    font-size:14px;
+}
+
+@media(max-width:900px){
+    .cv{grid-template-columns:1fr}
+    .sidebar{text-align:center}
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv">
+
+<!-- LEFT COLUMN -->
+<div class="sidebar">
+
+<div class="photo">
+    <img src="man - Copie (2).png" alt="Photo">
+</div>
+
+<h3>CONTACT</h3>
+<p><i class="fas fa-phone"></i> 034 36 598 03</p>
+<p><i class="fas fa-envelope"></i> mandimby9.h@gmail.com</p>
+<p><i class="fas fa-map-marker-alt"></i> Madagascar</p>
+
+<h3>RÉSEAUX SOCIAUX</h3>
+<p><i class="fab fa-linkedin"></i> linkedin.com/in/helison</p>
+<p><i class="fab fa-github"></i> github.com/helson34</p>
+
+<h3>QUALITÉS</h3>
+<ul>
+<li>✔ Créatif</li>
+<li>✔ Organisé</li>
+<li>✔ Dynamique</li>
+<li>✔ Esprit d'équipe</li>
+</ul>
+
+<h3>LANGUES</h3>
+<ul>
+<li>Français : Courant</li>
+<li>Anglais : Intermédiaire</li>
+<li>Malgache : Langue maternelle</li>
+</ul>
+
+<h3>CENTRES D’INTÉRÊT</h3>
+<ul>
+<li>Technologie</li>
+<li>Lecture</li>
+<li>Innovation</li>
+</ul>
+
+</div>
+
+<!-- RIGHT COLUMN -->
+<div class="content">
+
+<div class="header">
+    <h1>RAZAFIMANDIMBY VALISOA</h1>
+    <h2>Développeur Web</h2>
+    <p>Passionné par le développement web moderne et la création d'interfaces professionnelles. Motivé, rigoureux et orienté vers la performance.</p>
+</div>
+
+<div class="section">
+    <h3>EXPÉRIENCE PROFESSIONNELLE</h3>
+
+    <div class="job">
+        <h4>Développeur Front-End</h4>
+        <span>2025 - 2026 | Projet Personnel</span>
+        <ul>
+            <li>Création de sites web responsives</li>
+            <li>Intégration HTML, CSS, JavaScript</li>
+            <li>Optimisation design UI/UX</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <h4>Projet Application Gestion</h4>
+        <span>2024 - 2025</span>
+        <ul>
+            <li>Développement CRUD complet</li>
+            <li>Interface utilisateur moderne</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <h3>ÉTUDES</h3>
+    <p><strong>Licence Informatique</strong> - EMIT</p>
+    <p>2023 - 2026</p>
+</div>
+
+<div class="section">
+    <h3>COMPÉTENCES</h3>
+    <div class="skills">
+        <div class="skill-item">HTML5</div>
+        <div class="skill-item">CSS3</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">Git & GitHub</div>
+        <div class="skill-item">Responsive Design</div>
+        <div class="skill-item">UI/UX</div>
+    </div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

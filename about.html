@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About - PROJET METU DA2I</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#023e8a,#0077b6);
+color:white;
+}
+
+/* HEADER */
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:rgba(0,0,0,0.6);
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#00b4d8;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#00b4d8;
+}
+
+/* SECTION */
+.section{
+padding:80px 20px;
+text-align:center;
+animation:fadeIn 2s ease-in;
+}
+
+.section h1{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.section p{
+max-width:800px;
+margin:auto;
+line-height:1.8;
+font-size:18px;
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(30px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+@media(max-width:768px){
+.section h1{
+font-size:28px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2 class="logo">PROJET METU DA2I</h2>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">about</a>
+
+<a href="projet.html">projet</a>
+<a href="contact.html">contact</a>
+</nav>
+</header>
+
+<section class="section">
+<h1>À propos de nous</h1>
+<p>
+Je suis un étudiant en informatique passionné par le développement web et les nouvelles technologies.
+Notre objectif est de développer des projets modernes, innovants et professionnels.
+À travers ce projet METU DA2I, nous mettons en pratique nos compétences en HTML, CSS et JavaScript.
+Nous travaillons en équipe pour améliorer nos connaissances et préparer notre avenir professionnel dans le domaine du numérique.
+</p>
+</section>
+
+</body>
+</html>
